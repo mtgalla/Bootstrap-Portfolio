@@ -3,14 +3,6 @@ body{
    
 }
 
-#navbarSupportedContent {
-
-}
-
-a:hover{
-    color: blue;
-}
-
 .header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background:#4aaaa5;
@@ -19,14 +11,13 @@ a:hover{
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    bottom:-4px;
+    bottom:-16px;
 }
-
 
 nav{
     /* position: absolute; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    height:90px;
+    margin-top: -24px;
 
 }
 
@@ -142,7 +133,6 @@ p{
 
 .image-name{
     position: absolute;
-    left: 3%;
     top: 50%;
     width: 300px;
     padding: 20px 0px;
@@ -192,7 +182,7 @@ p{
 .contact-form{
     text-align: left;
     text-indent: 5px;
-    height: 20px;
+    height: 27px;
     width: 96%;
 }
 
